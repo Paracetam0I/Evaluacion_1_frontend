@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.contenedor{
+    display: flex;
+    background: #370031;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    height: 200px;
+    align-items: center;
+}
+
+.caja{
+    background: #ac5757;
+    height: 100px;
+    width: 100px;
+    color: #ffffff;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background: #0B0033;
+    justify-content: space-between;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.navbar #logo{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 23px;
+    font-weight: bold;
+    color: #FCBA04;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #FCBA04;
+    font-weight: bold;
+}
