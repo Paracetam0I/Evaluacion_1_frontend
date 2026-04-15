@@ -4,22 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio Sebastián Provoste</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-    <nav class="navbar fjalla-one-regular">
+<body class="body">
+    <nav class="navbar lato-bold">
 
         <div class="logo">
-            
-        <img alt="milogo" src="img/SP_logo.png" id="logo" width="50px">
+
+            <img alt="milogo" src="img/SP_logo.png" id="logo" width="50px">
             Sebastián Provoste
 
         </div>
@@ -33,20 +35,54 @@
     </nav>
     <div class="contenedor">
         <div class="caja lato-thin">
-        <h1>Hola, soy <span style="color:#d62e2e">Sebastian Provoste<span></h1>
-        <h2>Estudiante de ciberseguridad</h2>
-        <h3>Alguien apasionado por la seguridad en los sistemas</h3>    
+            <h1>Hola, soy <span style="color:#d62e2e">Sebastián Provoste<span></h1>
+            <h2>Estudiante de ciberseguridad</h2>
+            <h3>Alguien apasionado por la seguridad en los sistemas</h3>
         </div>
 
         <div class="caja">
-        <img src="/img/escudo.png" width="175">    
+            <img src="/img/escudo.png" width="175">
         </div>
-        
+
     </div>
 
-    <div class="about-me fjalla-one-regular"> 
-        Sobre Mí        
+    <div id="padre-about-me">
+        <div class="fjalla-one-regular" id="about-me">
+            Sobre Mí
+        </div>
     </div>
+    <aside class="about-me">
+
+        <div class="biblio">
+
+            <p class="lato-bold">
+                Me llamo <strong>Sebastián Provoste</strong> y soy estudiante en Ingeniería en ciberseguridad, me gusta investigar de nuevas tecnologías
+                 y aprender técnicas de vulneración web.
+            </p>
+            <p class="lato-bold">
+                Actualmente estoy estudiando para obtener la certificación <strong>BSCP</strong> de Port Swigger con la que ofrecer un mejor servicio a la hora
+                de auditar un cliente. También estoy dispuesto a trabajar en equipos de TI para intercambiar conocimientos.
+            </p>
+            <aside id="cita" class="lato-bold">
+                <p>
+                << Siempre buscando nuevas oportunidades para seguir aprendiendo>>
+                </p>
+            </aside>
+        </div>
+        <div class="info">
+            <h2 class="lato-bold">Datos Personales</h2>
+            <ul class="lato-bold">
+                <li class="listado-personal"><strong> Edad:</strong> 22</li>
+                <li class="listado-personal"><strong> Ciudad:</strong> Chiguayante</li>
+                <li class="listado-personal"><strong> Email:</strong> sebastian.provoste03@inacapmail.cl</li>
+                <li class="listado-personal"><strong> Carrera:</strong> Ingeniería en ciberseguridad </li>
+                <li class="listado-personal"><strong> Intereses:</strong> La informática, programación y las redes de datos</li>
+            </ul>
+        </div>
+
+    </aside>
+
+    
 </body>
 
 </html>
