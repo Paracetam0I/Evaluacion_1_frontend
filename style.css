@@ -73,7 +73,7 @@
     font-weight: bold;
 }
 
-#padre-about-me{
+.padre-about-me{
     display: flex;
     justify-content: center;
     margin-left: 30%;
@@ -81,7 +81,7 @@
     margin-bottom: 100px;
 }
 
-#padre-about-me #about-me{
+.padre-about-me .titulo{
     display: inline;
     font-size: 44px;
     padding-bottom: 25px;
@@ -93,6 +93,7 @@
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 100px;
 }
 
 .biblio{
@@ -127,6 +128,7 @@
     margin-left: 0%;
     border-radius: 20px;
     word-break: break-word;  
+    margin-bottom: 75px;
 }
 
 .info h2{
@@ -149,4 +151,52 @@
     margin-bottom: 10%;
     border-bottom: 3px solid rgba(88, 88, 88, 0.26);
     padding-bottom: 15px;
+}
+
+.habilidades{
+    display: flex;
+}
+
+.habilidades table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-right: 300px;
+    margin-left: 300px;
+    border-radius:25px ; /* TEMPORAL */
+}
+
+.habilidades th, td{
+    padding: 12px;
+    text-align: center;
+}
+
+.habilidades th{
+    width: 100%;
+    border-bottom: 3px solid rgb(40, 40, 146);
+}
+.barra-container {
+    width: 150px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.habilidades table {
+    width: 100%;
+    border-collapse: separate;  /* Permite espacio entre celdas */
+    border-spacing: 10px;       /* Espacio entre celdas */
+    border-radius: 25px;
+    overflow: hidden;
+}
+.barra {
+    height: 18px;
+    background-color: #4b54d1;
+    border-radius: 10px;
+    width: 0%;
+}
+
+#habilidades{
+    display: flex;
+    margin: 100px;
 }
