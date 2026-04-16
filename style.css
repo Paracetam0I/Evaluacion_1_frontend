@@ -199,4 +199,52 @@
 #habilidades{
     display: flex;
     margin: 100px;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.lista-habilidades{
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: blue;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 20px;
+    font-size: 20px;
+    border-left: 5px solid rgb(76, 0, 255);
+}
+
+#habilidades ul{
+    word-break: break-word;  
+    margin: 10px;
+    padding-left: 30px;
+}
+#habilidades ul li{
+    font-size: 20px;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+#habilidades ol{
+    word-break: break-word;  
+    margin: 10px;
+    padding-left: 30px;
+}
+#habilidades ol li{
+    font-size: 20px;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+#habilidades #competencias{
+    color: #4b54d1;
+    display: flex;
+    justify-content: center;
+}
+#habilidades #ruta{
+    color: #4b54d1;
+    display: flex;
+    justify-content: center;
 }
