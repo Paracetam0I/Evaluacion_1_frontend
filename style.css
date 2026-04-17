@@ -319,3 +319,42 @@ figcaption a {
 figcaption a:hover {
   background: #962121;
 }
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.contacto form{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contacto form .input-box{
+    width: calc(100% / 2 - 20px);
+}
+
+.contacto form input{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 45px;
+    width: 100%;
+}
+
+.contacto .info-adicional{
+    width: 40%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: blue;
+    margin-left: 0%;
+    border-radius: 20px;
+    word-break: break-word;
+    margin-bottom: 75px;
+}
+
+.contacto .lista-contacto{
+    list-style: none;
+}
