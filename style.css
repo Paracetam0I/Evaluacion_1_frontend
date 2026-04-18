@@ -370,6 +370,7 @@ figcaption a:hover {
     color: #fff;
     justify-content: center;
     font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .contacto form input{
@@ -405,4 +406,52 @@ figcaption a:hover {
 .contacto .lista-contacto a{
     text-decoration: none;
     color: #378aff;
+}
+
+.bajada{
+    background: #48586f;
+    padding: 50px ;
+}
+
+.bajada-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bajada .bajada-alineado{
+    margin-top: 20px;
+    border-bottom: 1px solid #ffffff59;
+}
+
+.bajada .bajada-texto{
+    display: flex;
+    padding: 10px;
+}
+
+.bajada .bajada-texto h3{
+    padding: 12px 20px;
+    color: #fff;
+}
+
+.bajada .botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bajada .botones .bot-ind{
+    margin: 10px;
+    padding: 10px;
+    background: #4b54d1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border: 1px solid #4b54d1;
+    border-radius: 10px;
+}
+
+.bajada .copyright{
+    display: flex;
+    justify-content: center;
+    color: #ffffff91;
+    margin-top: 20px;
+    font-size: 15px;
 }
